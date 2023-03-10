@@ -3,78 +3,65 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Krzysztof's Personal Site</title>
+    <title>Krzysztof Gniadzik</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="images/profile_photo-modified.png" alt="Profile photo"></td>
-            <td>
-                <h1>Krzysztof Gniadzik</h1>
-                <p><em>Civil <strong><a
-                                href="https://onlinemasters.ohio.edu/blog/civil-engineering-resource-and-career-guide/">Engineer</a></strong></em>
-                </p>
-                <p>I am a human</p>
-            </td>
-        </tr>
-    </table>
-    <hr>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>Krzysztof</h1>
+        <h2> <span style="text-decoration: underline;">inż</span>ynier</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img class="mountain" src="images/mountain.png" alt="mountain-img">
+    </div>
 
-    <h3>Education</h3>
-    <ul>
-        <li>Primary school</li>
-        <li>Secondary school</li>
-    </ul>
-    <hr>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="profile-img" src="images/profile_photo-modified.png" alt="profile-img">
+            <h2>Cześć</h2>
+            <p class="profile-description">Jestem inżynierem budownictwa i początkującym programistą. Interesuję się strzelectwem sportowym oraz historią wojskowości.
+            </p>
+        </div>
+        <hr>
 
-    <h3>Work experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2021-obecnie</td>
-                <td>Freyssinet Polska Sp. z o. o</td>
-            </tr>
-            <tr>
-                <td>2020-2021</td>
-                <td>Polimex Energetyka Sp. z o .o</td>
-            </tr>
-        </tbody>
-        <tfoot>
+        <div class="skills">
+            <h2>Umiejętności</h2>
+            <div class="skill-row">
+                <img class="engineer-img" src="images/engineers.png" alt="engineer-img">
+                <h3>Inżynieria budowlana</h3>
+                <p class="civil-skill-description">Od dziecka interesowałem się budownictwem. Od 2018 roku pracuję w zawodzie, zaś w  2022 roku uzyskalem uprawnienia do kierowania robotami budowlanymi bez ograniczeń w specjalości konstrukcyjno-budowlanej.</p>
+            </div>
+            <div class="skill-row">
+                <img class="it-img" src="images/information-technology.png" alt="it-img">
+                <h3>Programowanie</h3>
+                <p class="it-skill-description">W maju 2022 roku zacząłem uczyć się programowania w projekcie Przyszły Programista. Po jego ukończeniu zamierzam rozwijać się w technologiach związanych ze sztuczną inteligencją.</p>
+            </div>
+        </div>
 
-        </tfoot>
-    </table>
-    <hr>
+        <hr>
+        <div class="contact-me">
+            <h2>Kontakt</h2>
+            <h3>W celu skontaktowania się ze mną skorzystaj z linku poniżej.</h3>
+            <p class="contact-message">Do usłyszenia!</p>
+            <a class="btn" href="mailto:krzysztof.gniadzik.programista@gmail.com">NAPISZ DO MNIE</a>
+        </div>
+    </div>
 
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>Autocad  </td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Autodesk Robot </td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Norma Pro </td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>MS Office </td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-    </table>
 
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact-me.html">Contact Me</a>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://google.com/">Google</a>
+        <p class="copyright">© 2023 Krzysztof Gniadzik.</p>
+    </div>
+
+
 </body>
 
 </html>
